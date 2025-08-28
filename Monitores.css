@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+
+body {
+  background-color: orange;
+  
+}
+
+main h1 {
+  color:#3e0e22;
+  }
+
+
+  header, footer {
+  background-color: #3e0e22;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo, .logo-footer {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+nav a {
+  color: orangee;
+  margin: 0 15px;
+  text-decoration: none;
+  margin-left: 100px;
+  color: orange;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.filtros {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #3e0e22;
+  }
+  
+  .filtros select,
+  .filtros input {
+    padding: 6px;
+    border: 1px solid #3e0e22;
+    border-radius: 4px; 
+    background-color: orange;
+  }
+  .btn_filtrar {
+    
+    background-color: orange;
+
+  }
+  
+  
+  .produto button {
+    background-color: #3e0e22;
+    color: orange;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .produto button:hover {
+    background-color: #3e0e22;
+  }
+  
+
+
+.produtos {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produtos h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #3e0e22;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.produto {
+  width: 300px;
+  text-align: left;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.descricao {
+  font-size: 0.95em;
+  margin: 10px 0 5px;
+  color: #3e0e22;
+}
+
+.preco {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #3e0e22;
+}
+
+.icons a {
+  text-decoration: none;
+  color: orange;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.cart img {
+  width: 32px;
+  height: 32px;
+}
+
+
+.account .icon {
+  width: 32px;
+  height: 32px;
+}
+
+
+@media (max-width: 600px) {
+  .icons {
+    gap: 10px;
+  }
+
+  .account small {
+    font-size: 10px;
+  }
+}
+
+.footerposition{
+  position: relative;
+  top: 243px;
+}

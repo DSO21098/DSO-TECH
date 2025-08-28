@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSO Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <header>
+        <div class="logo"><img src="DSO TECH.png" alt="">
+        </div>
+        <nav>
+            <a href="Monitores.html">Monitores</a>
+            <a href="Gabinetes.html">Gabinetes</a>
+        </nav>
+        <div class="icons">
+            <a href="Carrinho.html" class="cart">
+                <img src="Carrinho.png" alt="Carrinho">
+            </a>
+            <a href="Entrar.html" class="account">
+                <img src="Minha conta.png" alt="Ícone de conta" class="icon">
+                <br>
+                <small>Minha conta</small>
+            </a>
+        </div>
+        
+    </header>
+
+    
+    <main>
+        <p class="boas-vindas fade-in" class="">Olá! Seja bem vindo a melhor loja de hardwares!</p>
+        <h1 class="fade-in-delay">É um prazer <br> atendê-lo!</h1>
+        <a href="Quem somos.html" class="btn fade-in-delay">Clique aqui para nos conhecer melhor</a>
+    </main>
+    
+
+    
+    <footer class="footerposition">
+        <div class="logo-footer"><img src="DSO TECH.png" alt=""></div>
+        <nav>
+            <a href="Monitores.html">Monitores</a>
+            <a href="Gabinetes.html">Gabinetes</a>
+
+        </nav>
+    </footer>
+
+    <script>
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+    
+    </script>
+    
+
+</body>
+</html>

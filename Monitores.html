@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monitores - DSO TECH</title>
+  <link rel="stylesheet" href="Monitores.css" />
+</head>
+<body>
+
+
+  <header>
+    <div class="logo"><img src="DSO TECH.png" alt="">
+    </div>
+    <nav>
+        <a href="Monitores.html">Monitores</a>
+        <a href="Gabinetes.html">Gabinetes</a>
+    </nav>
+    <div class="icons">
+        <a href="Carrinho.html" class="cart">
+            <img src="Carrinho.png" alt="Carrinho">
+        </a>
+        <a href="Entrar.html" class="account">
+            <img src="Minha conta.png" alt="Ícone de conta" class="icon">
+            <br>
+            <small>Minha conta</small>
+        </a>
+    </div>
+    
+</header>
+
+
+  <main class="produtos">
+
+    <h1>Monitores</h1>
+
+    <section class="filtros">
+      <label for="filtro-marca">Marca:</label>
+      <select id="filtro-marca">
+        <option value="todas">Todas</option>
+        <option value="AOC">AOC</option>
+        <option value="LG">LG</option>
+      </select>
+
+      <label for="filtro-preco">Preço até:</label>
+      <input type="number" id="filtro-preco" placeholder="Ex: 1500" />
+      <button onclick="filtrarProdutos()" class="btn_filtrar">Filtrar</button>
+    </section>
+
+    <div class="lista-produtos" id= “ lista-produtos”>
+
+        
+      <div class="lista-produtos" id="lista-produtos">
+        <img src="imgmonitor1.png" alt="Monitor AOC Agon 31.5">
+        <p class="descricao">Monitor Gamer Curvo AOC Agon 31.5”, 165 Hz, Full HD, 1ms, DisplayPort e HDMI, FreeSync Premium, RGB Light...</p>
+        <p class="preco">R$1399,99</p>
+      </div>  
+  </main>
+
+
+  <footer class="footerposition">
+    <div class="logo-footer"><img src="DSO TECH.png" alt=""></div>
+    <nav>
+      <a href="Monitores.html">Monitores</a>
+      <a href="Gabinetes.html">Gabinetes</a>
+    </nav>
+  </footer>
+
+  <script src="Monitores.js"></script>
+
+</body>
+</html>

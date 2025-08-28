@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: orange;
+  color:#3e0e22
+}
+
+
+  header, footer {
+  background-color: #3e0e22;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo, .logo-footer {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+nav a {
+  color: orange;
+  margin: 0 15px;
+  text-decoration: none;
+  
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  color: #3e0e22;
+}
+
+main p {
+  margin-bottom: 80px;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #3e0e22;
+}
+
+#novasenha{
+  color: #3e0e22;
+  background-color: orange;
+
+}
+
+#novasenhaconfirma{
+  color: #3e0e22;
+  background-color: orange;
+
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-right: 175px;
+  
+}
+
+footer nav {
+  display: flex;
+}
+
+footer nav a {
+  background-color: #3e0e22;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  margin-left: 100px;
+  font-size: 14px;
+}
+
+.btn_trocar_senha{
+  width: 8%;
+  background-color: #3e0e22;
+  color: orange;
+  position: relative;
+  top: 45px;
+  right: 300px;
+
+}
+
+
+.icons a {
+  text-decoration: none;
+  color: orange;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.cart img {
+  width: 32px;
+  height: 32px;
+}
+
+
+.account .icon {
+  width: 32px;
+  height: 32px;
+}
+
+
+@media (max-width: 600px) {
+  .icons  {
+    gap: 10px;
+  }
+
+  .account small {
+    font-size: 10px;
+  }
+}
+
+.footerposition{
+  position: relative;
+  
+  top: 363px;
+  
+  }

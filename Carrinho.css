@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+  background-color: orange;
+  
+}
+
+main h1 {
+  color:#3e0e22;
+  }
+
+
+  header, footer {
+  background-color: #3e0e22;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo, .logo-footer {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+nav a {
+  color: orangee;
+  margin: 0 15px;
+  text-decoration: none;
+  margin-left: 100px;
+  color: orange;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+
+.icons small {
+    font-size: 12px;
+}
+
+
+main {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cart-container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cart-container h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #3e0e1c;
+}
+
+.cart-container p {
+    font-size: 1.3em;
+    color: #3e0e1c;
+    margin: 10px 0;
+}
+
+.icons a {
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .icons a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  
+  .cart img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  
+  .account .icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .icons {
+      gap: 10px;
+    }
+  
+    .account small {
+      font-size: 10px;
+     
+    }
+  }
+  
+  .footerposition{
+    position: relative;
+    
+    top: 331px;
+    
+    }

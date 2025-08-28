@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabinetes - DSO TECH</title>
+  <link rel="stylesheet" href="Gabinetes.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="logo"><img src="DSO TECH.png" alt="">
+    </div>
+    <nav>
+        <a href="Monitores.html">Monitores</a>
+        <a href="Gabinetes.html">Gabinetes</a>
+    </nav>
+    <div class="icons">
+        <a href="Carrinho.html" class="cart">
+            <img src="Carrinho.png" alt="Carrinho">
+        </a>
+        <a href="Entrar.html" class="account">
+            <img src="Minha conta.png" alt="Ícone de conta" class="icon">
+            <br>
+            <small>Minha conta</small>
+        </a>
+    </div>
+    
+</header>
+
+
+  <main class="produtos">
+    <h1>Gabinetes</h1>
+
+
+    <section class="filtros">
+      <label for="filtro-marca">Marca:</label>
+      <select id="filtro-marca">
+        <option value="todas">Todas</option>
+        <option value="Corsair">Corsair</option>
+        <option value="Hayom">Hayom</option>
+        <option value="Rise">Rise</option>
+        <option value="Neologic">Neologic</option>
+      </select>
+
+      <label for="filtro-preco">Preço até:</label>
+      <input type="number" id="filtro-preco" placeholder="Ex: 700">
+      <button class="btn_filtrar" onclick="filtrarProdutos()">Filtrar</button> 
+    </section>
+
+
+    <div class="lista-produtos" id="lista-produtos">
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="logo-footer"><img src="DSO TECH.png" alt=""></div>
+    <nav>
+      <a href="Monitores.html">Monitores</a>
+      <a href="Gabinetes.html">Gabinetes</a>
+    </nav>
+  </footer>
+
+
+  <script src="Gabinetes.js"></script>
+
+</body>
+</html>
